@@ -1,12 +1,17 @@
-import { Container } from "./styles/Container.styled";
-import { StyledHeader } from "./styles/Header.styled";
+import { StyledHeader } from "./styles/StyledHeader";
 
 function Header() {
     return (
         <StyledHeader>
-            <Container>
-                <h1>Martins Siqueira</h1>
-            </Container>
+
+                <a href="/">LOGO</a>
+                <nav>
+                    <ul>
+                            <li><a href="">Linkedin</a></li>
+                            <li><a href="">GitHub</a></li>
+                    </ul>
+                </nav>
+
          </StyledHeader>
     )
 }

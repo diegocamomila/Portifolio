@@ -18,9 +18,17 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         background: ${({ theme }) => theme.colors.primary};
-        font-size: 16px;
+        font-size: 1.2rem;
         color: ${({ theme }) => theme.colors.color};
         font-family: 'Pridi', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+      }
+
+    li {
+        list-style-type: none;
     }
 `;
 
